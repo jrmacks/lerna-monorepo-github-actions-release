@@ -1,1 +1,4 @@
-module.exports = "one";
+function logToConsole(text){
+    console.log(text);
+}
+module.exports = logToConsole;
